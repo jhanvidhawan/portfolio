@@ -1,0 +1,78 @@
+#projects {
+    padding: 20px;
+    background-color:#ebebee;
+  }
+
+  .project-head{
+    font-size: 37px;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 0px; /* Space between cards */
+    margin: 10px 50px 50px;
+  }
+  
+  .project-card {
+    width: 90%;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4, 0.4);
+    transition: transform 0.3s ease;
+    margin: 18px;
+  }
+  
+  /* .project-card:hover {
+    transform: scale(1.05);
+  } */
+  
+  .project-image {
+    width: 100%;
+    /* height: 200px; */ /* Retain existing height if needed */
+    object-fit: cover;
+  }
+  
+  .project-content {
+    padding: 15px;
+  }
+  
+  .project-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .project-description {
+    margin: 10px 0 0;
+    color: #555;
+  }
+  
+  .project-para {
+    color: #6a6a6a;
+  }
+  
+  .tech-buttons {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap if necessary */
+  }
+  
+  .tech-button {
+    background-color: #f1f1f1;
+    color: #000000;
+    border: 1px solid #e8e8e8 ;
+    border-radius: 50px;
+    padding: 5px 10px;
+    margin: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tech-button:hover {
+    background-color: #d7d7d7;
+  }
+  

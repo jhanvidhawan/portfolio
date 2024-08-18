@@ -1,0 +1,33 @@
+{
+    "skillSets": [
+      {
+        "domain": "Web Development",
+        "skills": [
+          { "title": "HTML", "percentage": 90 },
+          { "title": "CSS", "percentage": 85 },
+          { "title": "JavaScript", "percentage": 90 }
+        ]
+      },
+      {
+        "domain": "Backend Technologies",
+        "skills": [
+          { "title": "PHP", "percentage": 75 },
+          { "title": "WordPress", "percentage": 80 }
+        ]
+      },
+      {
+        "domain": "Programming Languages",
+        "skills": [
+          { "title": "React.js", "percentage": 85 },
+          { "title": "Node.js", "percentage": 70 },
+          { "title": "Python", "percentage": 60 }
+        ]
+      }
+    ],
+    "recommendations": [
+    { "id": 1, "name": "John Doe", "recommendation": "This is a great service!", "description": "The team was very professional and attentive.", "image": "/images/pic1.avif" },
+    { "id": 2, "name": "Jane Smith", "recommendation": "Amazing experience.", "description": "I felt very well taken care of from start to finish.", "image": "/images/pic2.avif" },
+    { "id": 3, "name": "Michael Johnson", "recommendation": "Top-notch quality.", "description": "High-quality results and excellent customer service.", "image": "/images/pic3.avif" }
+    ]
+  }
+  

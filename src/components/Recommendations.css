@@ -1,0 +1,143 @@
+#recommendations {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color:#ebebee;
+
+}
+
+.carousel-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+  overflow: hidden;
+  width: 80%;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  position: relative;
+  flex: 0 0 calc(30% - 20px);
+  box-sizing: border-box;
+  padding: 25px;
+  text-align: left;
+  background: #ffffff;
+  margin: 0 20px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.carousel-item .stars {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+}
+
+.carousel-item .stars i {
+  color: #f5b800;
+  margin: 17px 10px;
+  font-size: 18px;
+}
+
+.carousel-item .content {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.carousel-item img {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.carousel-item .name {
+  position: absolute;
+  bottom: 50%;
+  left: 100px;
+  transform: translateY(500%);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.carousel-item .recommendation {
+  font-size: 20px;
+  margin: 0;
+}
+
+.carousel-item .description {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #6a6a6a;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2;
+  font-size: 20px;
+  transform: translateY(-50%);
+}
+
+.carousel-button.prev {
+  left: 10px;
+}
+
+.carousel-button.next {
+  right: 10px;
+}
+
+.carousel-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.rec-heading {
+  font-size: 37px;
+  margin-bottom: 0;
+}
+
+.rec-para {
+  margin-bottom: 5%;
+  margin-top: 0;
+  color: #6a6a6a;
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.carousel-indicators .dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ffe38e;
+  border-radius: 50%;
+  margin: 30px 5px;
+  margin-bottom:6%;
+  cursor: pointer;
+}
+
+.carousel-indicators .dot.active {
+  background-color: #f5b800;
+}
+

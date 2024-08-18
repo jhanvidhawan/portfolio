@@ -1,0 +1,193 @@
+#skills {
+    padding: 20px;
+    background-color: #ebebee;
+  }
+  
+  .skills-heading {
+    font-size: 37px;
+    margin-bottom: 20px;
+  }
+  
+  .skills-grid {
+    margin-left: 8%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .skill-card {
+    background-color: #ffffff;
+    padding: 10px;
+    height: 280px;
+    width: 300px;
+    overflow: hidden;
+  }
+  
+  .skill-card-title {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .skill-meters {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .skill-meter-container {
+    margin-bottom: 20px;
+  }
+  
+  .skill-meter-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .skill-name {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .skill-percentage {
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .skill-meter-bar {
+    background-color: #ffd700;
+    height: 3px;
+    border-radius: 4px;
+    /* transition: width 0.3s ease; */
+  }
+  
+  .add-skill-button {
+    background-color: #f5b800;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-skill-button:hover {
+    background-color: #ffdf80;
+  }
+  
+  .skill-para {
+    color: #6a6a6a;
+  }
+  
+  /* dialog box */
+  .dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .dialog-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    max-height: 90%;
+    overflow-y: auto;
+  }
+  
+  .dialog-content h3 {
+    margin-top: 0;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+    font-size: 15px;
+  }
+  
+  .form-group input {
+    background-color:rgb(233, 232, 236);
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  /* Container for the skill and proficiency inputs */
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Each skill and proficiency pair */
+  .skill-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  /* Skill input field */
+  .skill-row input[name="title"] {
+    width: 70%;
+  }
+  
+  /* Proficiency input field */
+  .skill-row input[name="percentage"] {
+    width: 20%;
+    border: none;
+    background-color: rgb(233, 232, 236) ;
+  }
+  .prof-text{
+    text-align: right;
+  }
+  
+  /* Buttons styles */
+  .button-container{
+    text-align: right;
+  }
+  button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    background-color: #f5b800;
+    color: rgb(0, 0, 0);
+    width: 20%;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ffd865;
+  }
+  
+  button[type="button"] {
+    background-color: #ffffff;
+    border: 1px red solid;
+    color: rgb(255, 0, 0);
+    width: 20%;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #c8cbcd;
+  }
+  
